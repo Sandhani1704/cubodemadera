@@ -5,13 +5,27 @@
   align-items: center;
   margin: 0 auto;
   flex-direction: column;
+  /* background-attachment: fixed; */
+  
 }
 
-.pic {
+.pi {
+  opacity: 0.8 !important;
+  height: 100vh;
+  width: 100vw;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.7;
 }
+
+/* .pic {
+    position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-attachment: fixed;
+  opacity: 0.8 !important;
+} */

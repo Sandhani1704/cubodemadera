@@ -6,14 +6,17 @@ import Collections from '../collections';
 function Main() {
     return (
         <main className={styles.main}>
+            <div className={styles.pi}>
             <Image
-                alt="travel"
+                alt="background"
                 src="/mainBackground.jpg"
                 layout="fill"
                 objectFit="cover"
                 quality={100}
-                className={styles.pic}
+                
+                
             />
+            </div>
             <Container />
             <Collections />
         </main>

@@ -1,0 +1,18 @@
+.button {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: max-content;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: white;
+    border-radius: 20px;
+    color: black;
+    padding: 5px 15px;
+  }
+
+  .button_active {
+    background: #E9C88B;
+  }
