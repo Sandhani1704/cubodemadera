@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 55%;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_right {
+  left: 60%;
+}
+
+.title {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 200;
+}

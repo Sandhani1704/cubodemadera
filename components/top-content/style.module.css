@@ -1,0 +1,52 @@
+.info {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.info__cont {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 50%;
+}
+
+.info__pic {
+  display: flex;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.info__text {
+  display: flex;
+  vertical-align: middle;
+  letter-spacing: 0.0909091em;
+  font-size: 22px;
+  color: #ffffff;
+  z-index: 3;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.info__caption {
+  display: flex;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+  color: #ffffff;
+  z-index: 3;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.info__buttons {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  color: #ffffff;
+  z-index: 3;
+  margin: auto;
+}

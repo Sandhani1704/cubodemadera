@@ -1,10 +1,10 @@
 import styles from './style.module.css'
 import Image from 'next/image'
 import Nav from '../nav';
-//import logoImage from 'images/logo.png';
+
 function Header() {
 
-  return <div className={styles.header}>
+  return <header className={styles.header}>
     <div className={styles.logo__container}>
 
       <Image src='/logo.png' width={50} height={50} alt='logo' className={styles.logo__pic} />
@@ -14,7 +14,7 @@ function Header() {
       </p>
     </div>
     <Nav />
-  </div>
+  </header>
 
 }
 

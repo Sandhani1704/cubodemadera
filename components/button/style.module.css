@@ -1,18 +1,38 @@
 .button {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    width: max-content;
-    border: 0;
-    outline: 0;
-    vertical-align: baseline;
-    background: white;
-    border-radius: 20px;
-    color: black;
-    padding: 5px 15px;
-  }
+  text-align: center;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: max-content;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 3px 20px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  background: transparent;
+  font-size: 13px;
+  z-index: 5;
+}
 
-  .button_active {
-    background: #E9C88B;
-  }
+.button:hover {
+  opacity: 0.8;
+  transition: 0.4s ease 0s;
+  color: #e9c88b;
+  border: 1px solid #e9c88b;
+}
+
+.button_active {
+  border: none;
+  background: #e9c88b;
+  z-index: 5;
+}
+
+.button_active:hover {
+  background: #ffffff;
+  color: #414141;
+  border: none;
+  z-index: 5;
+}

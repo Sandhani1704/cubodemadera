@@ -1,0 +1,36 @@
+.table {
+  display: flex;
+  margin: auto;
+  width: 880px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.table_white {
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  color: #ffffff;
+  margin: auto;
+  z-index: 3;
+}
+
+.table__cell {
+  width: 240px;
+}
+
+.table__heading {
+  line-height: 1.115;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.table__text {
+  margin: 20px 0 0 0;
+  line-height: 1.2;
+  font-size: 14px;
+  font-weight: normal;
+}
