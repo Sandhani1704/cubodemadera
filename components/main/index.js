@@ -19,7 +19,7 @@ function Main() {
 
                 />
             </div>
-            <Container >
+            <Container isTop='true'>
                 <TopContent />
             </Container>
             <Collections />

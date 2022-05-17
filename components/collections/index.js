@@ -7,13 +7,12 @@ import cn from 'classnames';
 function Collections() {
 
     return <div className={styles.container}>
-        <div className={styles.content}>
         <h3 className={styles.title}>
             Cubo de madera —  новое слово в фитодизайне
         </h3>
-        <p className={styles.text}>В проектировании наших кашпо мы уделяем большое внимание не только  внешнему виду, 
-        но и созданию максимально комфортной среды для содержания ваших растений.</p>
-        </div>
+        <p className={styles.text}>В проектировании наших кашпо мы уделяем большое внимание не только  внешнему виду,
+            но и созданию максимально комфортной среды для содержания ваших растений.</p>
+
         <div className={styles.container__pics}>
             <div className={styles.pic__container}>
                 <Image src='/collections-1.jpg'

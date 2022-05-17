@@ -9,6 +9,7 @@
   display: flex;
   position: absolute;
   flex-direction: column;
+  width: 100%;
   top: 50%;
 }
 
@@ -50,3 +51,10 @@
   z-index: 3;
   margin: auto;
 }
+
+@media screen and (max-width: 980px) {
+  .info {
+    display: none;
+  }
+}
+
