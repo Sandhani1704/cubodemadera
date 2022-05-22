@@ -4,6 +4,7 @@ import Container from '../container';
 import Collections from '../collections';
 import TopContent from '../top-content';
 import BottomContent from '../bottom-content';
+import MobileContent from '../mobile-content';
 
 function Main() {
     return (
@@ -26,6 +27,7 @@ function Main() {
             <Container isBottom='true'>
                 <BottomContent />
             </Container>
+            <MobileContent />
         </main>
 
     )

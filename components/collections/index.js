@@ -15,7 +15,7 @@ function Collections() {
 
         <div className={styles.container__pics}>
             <div className={styles.pic__container}>
-                <Image src='/collections-1.jpg'
+                <Image src='/collections-1-mobile.jpg'
                     width={436} height={220}
                     objectFit="cover"
                     className={styles.pic}
@@ -23,12 +23,12 @@ function Collections() {
                 <PictureCaption title='Коллекция Cubo de madera' />
             </div>
             <div className={styles.pic__container}>
-                <Image src='/collections-2.jpg'
+                <Image src='/collections-2-mobile.jpg'
                     width={436} height={220}
                     objectFit="cover"
                     className={styles.pic}
                 />
-                <PictureCaption title='Коллекция Сlasico' />
+                <PictureCaption title='Коллекция на ножках' />
             </div>
         </div>
 

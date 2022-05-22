@@ -10,6 +10,7 @@ function Header() {
   console.log(humburgerOpened)
 
   return <header className={cn(styles.header, { [styles.header_opened]: humburgerOpened })}>
+    <div className={styles.header__cont}>
     <Logo humburgerOpened={humburgerOpened} />
     <Nav humburgerOpened={humburgerOpened} />
     <div className={cn(styles.header__buttons, { [styles.header__buttons_hidden]: humburgerOpened })}>
@@ -30,6 +31,7 @@ function Header() {
       }}>
       <Image src='/close-button.png' alt='close-icon' layout="responsive" objectFit='contain' width="100%" height="100%" />
     </button>
+    </div>
   </header>
 
 }

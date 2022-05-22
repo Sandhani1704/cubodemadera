@@ -26,9 +26,13 @@
   height: 400px;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1030px) { 
   .container_top {
     display: none;
+  }
+  .container_bottom {
+    display: none;
+    padding: 0 50px;
   }
 }
 

@@ -98,3 +98,28 @@
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width: 1030px) {
+  .footer {
+    padding: 0 25px;
+    max-width: 880px;
+  }
+  .footer__container {
+    max-width: 780px;
+  }
+  .contacts {
+    max-width: 880px;
+  }
+  .footer__text {
+    display: none;
+  }
+  .footer__dates {
+    display: none;
+  }
+  .footer__social {
+    justify-content: flex-end;
+  }
+  .footer__caption {
+    justify-content: flex-end;
+  }
+}

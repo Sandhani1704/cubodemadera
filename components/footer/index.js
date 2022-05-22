@@ -4,7 +4,7 @@ import Image from 'next/image'
 function Footer() {
   return <footer className={styles.footer}>
     <div className={styles.footer__container}>
-      <Logo />
+      <Logo isBottom='true'/>
       <div className={styles.contacts}>
         <p className={styles.contacts__address}>129345 Россия, г. Москва Осташковская улица,<br/> дом 4 стр. 7</p>
         <a href="tel:+7(495) 799-16-06" className={styles.contacts__phone}>+7 (495) 799-16-06</a>
@@ -20,7 +20,7 @@ function Footer() {
               objectFit="cover"
             />
           </a>
-          <p>© 2017-2022 CUBO DE MADERA</p>
+          <p className={styles.footer__dates}>© 2017-2022 CUBO DE MADERA</p>
         </div>
       </div>
     </div>
