@@ -33,10 +33,11 @@
   margin-bottom: 30px;
 }
 
-.info__caption {
+.info__title {
   display: flex;
   letter-spacing: 0.1em;
   font-size: 15px;
+  font-weight: 300;
   color: #ffffff;
   z-index: 3;
   margin: auto;

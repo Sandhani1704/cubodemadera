@@ -1,29 +1,31 @@
 import styles from './style.module.css';
 import cn from 'classnames';
+import LinkComponent from '../link';
+import { withRouter } from 'next/router';
 
-function Nav({humburgerOpened}) {
+function Nav({ humburgerOpened, handleClick }) {
     console.log(humburgerOpened)
 
     return (
-        <nav className={cn(styles.navigation, {[styles.navigation_opened]: humburgerOpened })}> 
-            <ul className={cn(styles.list, {[styles.list_opened]: humburgerOpened })}> 
-                <li className={cn(styles.list__item, {[styles.list__item_opened]: humburgerOpened })}>
-                    <a className={cn(styles.list__link, {[styles.list__link_opened]: humburgerOpened })} href="#">ГЛАВНАЯ</a>
+        <nav className={cn(styles.navigation, { [styles.navigation_opened]: humburgerOpened })}>
+            <ul className={cn(styles.list, { [styles.list_opened]: humburgerOpened })}>
+                <li className={cn(styles.list__item, { [styles.list__item_opened]: humburgerOpened })}>
+                    <LinkComponent href='/' linkTitle='ГЛАВНАЯ' humburgerOpened={humburgerOpened} handleClick={handleClick} />
                 </li>
-                <li className={cn(styles.list__item, {[styles.list__item_opened]: humburgerOpened })}>
-                    <a className={cn(styles.list__link, {[styles.list__link_opened]: humburgerOpened })} href="#">ГАЛЕРЕЯ</a>
+                <li className={cn(styles.list__item, { [styles.list__item_opened]: humburgerOpened })}>
+                    <LinkComponent href='/galereya' linkTitle='ГАЛЕРЕЯ' humburgerOpened={humburgerOpened} handleClick={handleClick} />
                 </li>
-                <li className={cn(styles.list__item, {[styles.list__item_opened]: humburgerOpened })}>
-                    <a className={cn(styles.list__link, {[styles.list__link_opened]: humburgerOpened })} href="#">КУПИТЬ</a>
+                <li className={cn(styles.list__item, { [styles.list__item_opened]: humburgerOpened })}>
+                    <LinkComponent href='https://fivemarket.ru/catalog/cubo_de_madera/' target='_blank' linkTitle='КУПИТЬ' humburgerOpened={humburgerOpened} handleClick={handleClick} />
                 </li>
-                <li className={cn(styles.list__item, {[styles.list__item_opened]: humburgerOpened })}>
-                    <a className={cn(styles.list__link, {[styles.list__link_opened]: humburgerOpened })} href="#">КАК ЗАКАЗАТЬ</a>
+                <li className={cn(styles.list__item, { [styles.list__item_opened]: humburgerOpened })}>
+                    <LinkComponent href='/kak-zakazat' linkTitle='КАК ЗАКАЗАТЬ' humburgerOpened={humburgerOpened} handleClick={handleClick} />
                 </li>
-                <li className={cn(styles.list__item, {[styles.list__item_opened]: humburgerOpened })}>
-                    <a className={cn(styles.list__link, {[styles.list__link_opened]: humburgerOpened })} href="#">АССОРТИМЕНТ</a>
+                <li className={cn(styles.list__item, { [styles.list__item_opened]: humburgerOpened })}>
+                    <LinkComponent href='/assortiment' linkTitle='АССОРТИМЕНТ' humburgerOpened={humburgerOpened} handleClick={handleClick} />
                 </li>
-                <li className={cn(styles.list__item, {[styles.list__item_opened]: humburgerOpened })}>
-                    <a className={cn(styles.list__link, {[styles.list__link_opened]: humburgerOpened })} href="#">КОНТАКТЫ</a>
+                <li className={cn(styles.list__item, { [styles.list__item_opened]: humburgerOpened })}>
+                    <LinkComponent href='/kontakty' linkTitle='КОНТАКТЫ' humburgerOpened={humburgerOpened} handleClick={handleClick} />
                 </li>
             </ul>
         </nav>
@@ -31,4 +33,4 @@ function Nav({humburgerOpened}) {
 
 }
 
-export default Nav
+export default withRouter(Nav)

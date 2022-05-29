@@ -9,10 +9,10 @@ function TopContent() {
       <p className={styles.info__text}>
         Индивидуальный стиль вашего интерьера
       </p>
-      <p className={styles.info__caption}>Деревянные  кашпо из массива ясеня</p>
+      <h1 className={styles.info__title}>Деревянные кашпо из массива ясеня</h1>
       <div className={styles.info__buttons}>
-        <Button isActive='true' text='Купить' /> 
-        <Button text='Подробнее' />
+        <Button isActive='true' text='Купить' href='https://fivemarket.ru/catalog/cubo_de_madera/' target='_blank'/> 
+        <Button text='Подробнее' href='/assortiment' />
       </div>
     </div>
     <Image src='/info-top.jpg'

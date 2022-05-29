@@ -20,7 +20,7 @@ function Collections() {
                     objectFit="cover"
                     className={styles.pic}
                 />
-                <PictureCaption title='Коллекция Cubo de madera' />
+                <PictureCaption title='Коллекция Cubo de madera' href='https://fivemarket.ru/catalog/cubo_de_madera/' />
             </div>
             <div className={styles.pic__container}>
                 <Image src='/collections-2-mobile.jpg'
@@ -28,7 +28,7 @@ function Collections() {
                     objectFit="cover"
                     className={styles.pic}
                 />
-                <PictureCaption title='Коллекция на ножках' />
+                <PictureCaption title='Коллекция на ножках' href='https://fivemarket.ru/catalog/cubo_de_madera/' />
             </div>
         </div>
 
@@ -41,7 +41,7 @@ function Collections() {
                 objectFit="cover"
                 className={styles.picinfo}
             />
-            <PictureCaption title='Кашпо по вашим размерам' isRight='true' />
+            <PictureCaption title='Кашпо по вашим размерам' href='/kak-zakazat' isRight='true' />
         </div>
         <Table
             heading1='Встроенная система автополива'

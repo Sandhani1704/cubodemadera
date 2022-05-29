@@ -74,3 +74,20 @@
 .border_column {
   display: none;
 }
+
+@media screen and (max-width: 420px) {
+  .table {
+    margin-bottom: 40px;
+  }
+  .table__heading_column {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .table__text_column {
+    font-size: 14px;
+  }
+  .table__cell_column {
+    padding-bottom: 15px;
+  }
+}

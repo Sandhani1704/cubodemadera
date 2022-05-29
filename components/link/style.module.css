@@ -1,0 +1,43 @@
+.link {
+  list-style-type: none;
+  text-decoration-line: none;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #414141;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.link_active {
+    color: #E9C88B;
+  }
+.link:hover {
+  opacity: 0.8;
+  transition: 0.4s ease 0s;
+}
+.link:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1030px) {
+  .link_opened {
+    font-size: 30px;
+    max-width: 515px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .link_opened {
+    font-size: 25px;
+  }
+}

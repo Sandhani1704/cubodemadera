@@ -68,10 +68,13 @@
   width: 100%;
 }
 
+.pic__container_big:before {
+  background-color: inherit;
+  opacity: 0;
+}
+
 @media screen and (max-width: 1030px) {
-  .container  {
+  .container {
     display: none;
   }
 }
-
-

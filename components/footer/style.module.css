@@ -2,14 +2,12 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  /* bottom: 0; */
   height: auto;
   max-width: 980px;
   width: 100%;
   min-height: auto;
   z-index: 1;
   background: #f2f2f2;
-  /* background-color: #f2f2f2; */
   padding-top: 30px;
   padding-bottom: 60px;
   margin-left: auto;
@@ -24,7 +22,6 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  /* background: #f2f2f2 !important; */
 }
 
 .contacts {
@@ -36,6 +33,9 @@
 }
 
 .contacts__address {
+  display: flex;
+  max-width: 320px;
+  width: 100%;
   font-size: 14px;
   color: #414141;
 }
@@ -99,9 +99,17 @@
   align-items: center;
 }
 
+.footer__link {
+  position: relative;
+  display: flex;
+  max-width: 28px;
+  width: 100%;
+  height: 28px;
+}
+
 @media screen and (max-width: 1030px) {
   .footer {
-    padding: 0 25px;
+    padding: 30px 25px;
     max-width: 880px;
   }
   .footer__container {
@@ -110,6 +118,17 @@
   .contacts {
     max-width: 880px;
   }
+  .contacts__address {
+    font-size: 25px;
+    max-width: 600px;
+  }
+  .contacts__phone {
+    font-size: 25px;
+  }
+
+  .contacts__email {
+    font-size: 26px;
+  }
   .footer__text {
     display: none;
   }
@@ -117,9 +136,74 @@
     display: none;
   }
   .footer__social {
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
   .footer__caption {
-    justify-content: flex-end;
+    justify-content: flex-start;
+  }
+  .footer__link {
+    max-width: 90px;
+    width: 100%;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .footer__link {
+    max-width: 80px;
+    width: 100%;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .footer__link {
+    max-width: 70px;
+    width: 100%;
+    height: 70px;
+  }
+  .contacts__address {
+    font-size: 20px;
+    max-width: 400px;
+  }
+  .contacts__phone {
+    font-size: 20px;
+  }
+
+  .contacts__email {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__link {
+    max-width: 50px;
+    width: 100%;
+    height: 50px;
+  }
+  .contacts__address {
+    font-size: 16px;
+    max-width: 350px;
+  }
+  .contacts__phone {
+    font-size: 16px;
+  }
+
+  .contacts__email {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer {
+    padding-bottom: 15px;
+  }
+  .footer__link {
+    max-width: 35px;
+    width: 100%;
+    height: 35px;
+  }
+  .contacts__address {
+    max-width: 330px;
   }
 }

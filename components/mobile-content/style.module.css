@@ -84,7 +84,11 @@
     font-size: 22px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
+  .cont {
+    gap: 10px;
+    padding-bottom: 0;
+  }
   .pic {
     height: 150px;
   }
@@ -99,7 +103,6 @@
   .cont {
     padding: 0 10px;
     padding-top: 20px;
-    padding-bottom: 20px;
   }
   .pic {
     height: 120px;
