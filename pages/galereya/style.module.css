@@ -48,6 +48,11 @@
   grid-template-columns: 100%;
 }
 
+.galereya__item {
+  cursor: pointer;
+  border: none;
+}
+
 .galereya__item1 {
   position: relative;
   height: 270px;

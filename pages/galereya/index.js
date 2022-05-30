@@ -2,7 +2,24 @@ import styles from './style.module.css';
 import cn from 'classnames';
 import Image from 'next/image';
 import Head from 'next/head';
+import { useState } from 'react';
+import gallery from 'configs/gallery';
+import { ImagePopup } from '../../components';
+
 function Galereya() {
+    const [selectedImage, setSelectedImage] = useState(null);
+    const [isImagePopupOpen, setIsImagePopupOpen] = useState(false);
+    console.log(gallery[0].className)
+
+    const handleCardClick = (image) => {
+        setSelectedImage(image)
+        setIsImagePopupOpen(true);
+    }
+
+    function handleCloseCardClick() {
+        setIsImagePopupOpen(false)
+      }
+    
 
     return <main className={cn(styles.galereya)}>
         <Head>
@@ -28,10 +45,14 @@ function Galereya() {
             который гармонично вольется в ваш интерьер. </p>
 
         <div className={cn(styles.galereya__cont)}>
-            <div className={cn(styles.galereya__item1)}>
-                <Image src='/item-1.jpg' layout="fill" objectFit='cover' />
-            </div>
-            <div className={cn(styles.galereya__item2)}>
+            {gallery.map(item => (
+                <button className={cn(styles.galereya__item, styles[`${item.className}`])}  onClick={() => handleCardClick(item)}>
+                    <Image src={item.src} layout="fill" objectFit='cover' />
+                </button>
+            )
+            )}
+
+            {/* <div className={cn(styles.galereya__item2)}>
                 <Image src='/item-2.jpg' layout="fill" objectFit='cover' />
             </div>
             <div className={cn(styles.galereya__item3)}>
@@ -84,8 +105,13 @@ function Galereya() {
             </div>
             <div className={cn(styles.galereya__item19)}>
                 <Image src='/item-19.jpg' layout="fill" objectFit='cover' />
-            </div>
+            </div> */}
         </div>
+        <ImagePopup
+            image={selectedImage}
+            isOpen={isImagePopupOpen}
+            handleCloseCardClick={handleCloseCardClick}
+        />
 
     </main>
 }
