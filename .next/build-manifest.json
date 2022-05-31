@@ -1,35 +1,62 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js",
-    "static/development/_middlewareManifest.js"
+    "static/ibk1d8Ci2yYLZZXmRK0K3/_buildManifest.js",
+    "static/ibk1d8Ci2yYLZZXmRK0K3/_ssgManifest.js",
+    "static/ibk1d8Ci2yYLZZXmRK0K3/_middlewareManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-fc97f3f1282ce3ed.js",
+      "static/chunks/main-17f83f6ef67c6fe6.js",
+      "static/chunks/pages/index-c1c6d84de41b7ee1.js"
+    ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-fc97f3f1282ce3ed.js",
+      "static/chunks/main-17f83f6ef67c6fe6.js",
+      "static/css/1dd57bea70983335.css",
+      "static/chunks/pages/_app-c5c7bc4f8b4b7152.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-fc97f3f1282ce3ed.js",
+      "static/chunks/main-17f83f6ef67c6fe6.js",
+      "static/chunks/pages/_error-0a004b8b8498208d.js"
+    ],
+    "/assortiment": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-fc97f3f1282ce3ed.js",
+      "static/chunks/main-17f83f6ef67c6fe6.js",
+      "static/css/128bd5d6d3a5a20c.css",
+      "static/chunks/pages/assortiment-311a02a59f06958e.js"
     ],
     "/galereya": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/galereya.js"
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-fc97f3f1282ce3ed.js",
+      "static/chunks/main-17f83f6ef67c6fe6.js",
+      "static/css/aed108ca1415c630.css",
+      "static/chunks/pages/galereya-68338d661b37bae8.js"
+    ],
+    "/kak-zakazat": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-fc97f3f1282ce3ed.js",
+      "static/chunks/main-17f83f6ef67c6fe6.js",
+      "static/css/2a1dbe8b0ffe4193.css",
+      "static/chunks/pages/kak-zakazat-19d9051b4da1ce51.js"
+    ],
+    "/kontakty": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-fc97f3f1282ce3ed.js",
+      "static/chunks/main-17f83f6ef67c6fe6.js",
+      "static/css/52fc24b84f5e80f4.css",
+      "static/chunks/pages/kontakty-e2b854ea3c4b3e3e.js"
     ]
   },
   "ampFirstPages": []

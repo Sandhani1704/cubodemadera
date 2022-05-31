@@ -16,7 +16,8 @@ function TopContent() {
       </div>
     </div>
     <Image src='/info-top.jpg'
-      width={980} height={480}
+      // width={980} height={480}
+      layout="fill"
       objectFit="cover"
       className={styles.info__pic}
     />

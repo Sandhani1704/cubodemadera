@@ -15,9 +15,7 @@ function Main() {
                     src="/mainBackground.jpg"
                     layout="fill"
                     objectFit="cover"
-                    quality={100}
-
-
+                    // quality={100}
                 />
             </div>
             <Container isTop='true'>

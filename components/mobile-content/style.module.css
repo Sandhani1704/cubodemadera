@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 1030px) {
   .cont {
-    display: flex;
+    /* display: flex; */
   }
 }
 
@@ -68,23 +68,29 @@
     font-size: 27px;
   }
 }
-@media screen and (max-width: 650px) {
-  .pic__caption {
-    left: 10px;
-    bottom: 0px;
-    font-size: 25px;
-  }
-}
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 650px) {
+  .cont {
+    display: flex;
+  }
   .pic {
     height: 230px;
   }
   .pic__caption {
+    left: 10px;
+    bottom: 0px;
+    /* font-size: 25px; */
     font-size: 22px;
   }
 }
-@media screen and (max-width: 420px) {
+
+/* @media screen and (max-width: 540px) {
+  
+  .pic__caption {
+    font-size: 22px;
+  }
+} */
+@media screen and (max-width: 450px) {
   .cont {
     gap: 10px;
     padding-bottom: 0;

@@ -6,7 +6,8 @@ function BottomContent() {
 
     return <div className={styles.picture__cont}>
         <Image src='/collections-4.jpg'
-            width={980} height={400}
+            // width={980} height={400}
+            layout="fill"
             objectFit="cover"
         />
         <Table isWhite='true' heading1='Система скидок'

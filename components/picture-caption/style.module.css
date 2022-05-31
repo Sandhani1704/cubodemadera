@@ -9,7 +9,8 @@
 }
 
 .container_right {
-  top: 40%;
+  /* top: 40%; */
+  bottom: 20px;
   left: 60%;
 }
 
@@ -19,4 +20,21 @@
   font-weight: 200;
   z-index: 3;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 960px) {
+  .container_right {
+    /* top: 30%; */
+    left: 60%;
+    bottom: 20px;
+  }
+  .title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+    .title {
+    font-size: 17px;
+  }
 }
