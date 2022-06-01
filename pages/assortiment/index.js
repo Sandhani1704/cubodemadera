@@ -9,13 +9,10 @@ function Assortiment() {
     return (
         <main className={styles.main}>
             <Head>
-                <title>Купить CUBO DE MADERA в Москве с бережной доставкой: цена на CUBO DE MADERA, в интернет магазине fivemarket</title>
+                <title>Ассортимент кашпо CUBO DE MADERA</title>
                 <meta name="robots" content="index,follow" />
                 <meta name="keywords" content="cubo de madera" />
-                <meta name="description" content="Наши кашпо производятся вручную. Древесина твердой породы ясеня поставляется из регионов Восточной Азии и Дальнего Востока.
-                    Прежде чем попасть на производство, древесина проходит тщательный отбор. Только лучшие экземпляры попадают в наш цех.
-                    Все материалы, используемые для покрытия кашпо, тонировка, защита, изготавливаются на основе масел, поэтому наши кашпо экологически чистые.
-                    Процесс изготовления проходит в несколько этапов и осуществляется специалистами высокого уровня, что также является показателем качества нашей продукции." />
+                <meta name="description" content="Виды комплектаций и исполнений кашпо CUBO DE MADERA" />
             </Head>
             <div className={styles.pic}>
                 <Image
@@ -24,8 +21,6 @@ function Assortiment() {
                     layout="fill"
                     objectFit="cover"
                     quality={100}
-
-
                 />
             </div>
             <Container >
@@ -35,7 +30,7 @@ function Assortiment() {
                         layout="fill" objectFit='cover'
                     />
                     <div className={styles.content__cont}>
-                        <h3 className={styles.content__title}>Сочетание форм - признак хорошего дизайнa</h3>
+                        <h1 className={styles.content__title}>Сочетание форм - признак хорошего дизайнa</h1>
                         <p className={styles.content__text}>Разнообразие размеров напольных кашпо, выполненных в едином стиле, будет являться неповторимым продолжением Вашего интерьера</p>
                         <Button isActive='true' text='Купить' />
                     </div>

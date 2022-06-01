@@ -9,8 +9,7 @@ import { ImagePopup } from '../../components';
 function Galereya() {
     const [selectedImage, setSelectedImage] = useState(null);
     const [isImagePopupOpen, setIsImagePopupOpen] = useState(false);
-    console.log(gallery[0].className)
-
+    
     const handleCardClick = (image) => {
         setSelectedImage(image)
         setIsImagePopupOpen(true);
@@ -23,11 +22,10 @@ function Galereya() {
 
     return <main className={cn(styles.galereya)}>
         <Head>
-            <title>Купить CUBO DE MADERA в Москве с бережной доставкой: цена на CUBO DE MADERA, в интернет магазине fivemarket</title>
+            <title>Галерея кашпо CUBO DE MADERA</title>
             <meta name="robots" content="index,follow" />
             <meta name="keywords" content="cubo de madera" />
-            <meta name="description" content="Стилизованный дизайн кашпо Cubo de madera является великолепным продолжением в
-            современных интерьерных  решениях, таких как Hi-tech, Loft, Eko-style, Minimalism." />
+            <meta name="description" content="Фотографии в интерьере кашпо CUBO DE MADERA" />
         </Head>
         <div className={styles.background}>
             <Image

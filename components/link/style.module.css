@@ -14,10 +14,10 @@
 }
 
 .link_active {
-    color: #E9C88B;
-  }
+  color: #e9c88b;
+}
 .link:hover {
-  opacity: 0.8;
+  opacity: 0.6;
   transition: 0.4s ease 0s;
 }
 .link:last-child {
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 1030px) {
   .link_opened {
-    font-size: 30px;
+    font-size: 25px;
     max-width: 515px;
     width: 100%;
     display: flex;
@@ -36,8 +36,27 @@
   }
 }
 
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 800px) {
   .link_opened {
-    font-size: 25px;
+    font-size: 20px;
+    padding: 30px 20px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .link_opened {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .link_opened {
+    font-size: 16px;
+  }
+}
+
+/* @media screen and (max-width: 310px) {
+  .link_opened {
+    font-size: 20px;
+  }
+} */

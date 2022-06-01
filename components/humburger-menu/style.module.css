@@ -1,0 +1,135 @@
+.humburgerMenu {
+  position: fixed;
+  width: 40vw;
+  height: 100vh;
+  /* display: none; */
+  z-index: 4;
+  background: #f2f2f2;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.humburgerMenu__container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-width: 100%;
+  width: 100%;
+  background: #f2f2f2;
+  padding: 20px 10px 20px 0;
+  padding-left: 20px;
+}
+
+.humburgerMenu__overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.navList {
+  margin: 0;
+  padding: 0;
+}
+
+.navList__item {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.navList__link {
+  font-family: "Roboto Slab", Arial, sans-serif;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.3;
+  opacity: 1;
+  transition: opacity 0.4s;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.navList__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.4s;
+}
+
+.nav {
+  left: 0;
+  transition: left 0.4s;
+}
+
+.humburger__close {
+  display: none;
+}
+
+.humburger__close_opened {
+  object-fit: cover;
+  border: none;
+  object-position: 50% 50%;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+.humburger__close_opened:hover {
+  opacity: 0.6;
+  transition: 0.4s ease 0s;
+}
+
+@media screen and (max-width: 1030px) {
+  .humburgerMenu_opened {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 40vw;
+    height: 100vh;
+    /* transition: left 0.4s; */
+
+    visibility: visible;
+
+    transition: visibility 0.7s, opacity 0.7s;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .humburgerMenu_opened {
+    width: 50vw;
+  }
+  .humburger__close_opened {
+    top: 20px;
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .humburgerMenu_opened {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .humburger__close_opened {
+    width: 40px;
+    height: 40px;
+  }
+}

@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@corex/deepmerge@^2.6.148":
+  "integrity" "sha512-6QMz0/2h5C3ua51iAnXMPWFbb1QOU1UvSM4bKBw5mzdT+WtLgjbETBBIQZ+Sh9WvEcGwlAt/DEdRpIC3XlDBMA=="
+  "resolved" "https://registry.npmjs.org/@corex/deepmerge/-/deepmerge-2.6.148.tgz"
+  "version" "2.6.148"
+
 "@emotion/is-prop-valid@^0.8.2":
   "integrity" "sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA=="
   "resolved" "https://registry.npmjs.org/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz"
@@ -150,6 +155,11 @@
   dependencies:
     "mime-db" "1.52.0"
 
+"minimist@^1.2.6":
+  "integrity" "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q=="
+  "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+  "version" "1.2.6"
+
 "nanoid@^3.1.30":
   "integrity" "sha512-CuHBogktKwpm5g2sRgv83jEy2ijFzBwMoYA60orPDR7ynsLijJDqgsi4RDGj3OJpy3Ieb+LYwiRmIOGyytgITA=="
   "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.3.2.tgz"
@@ -163,7 +173,15 @@
     "file-loader" "^6.2.0"
     "url-loader" "^4.1.0"
 
-"next@^12.1.7-canary.3":
+"next-sitemap@^2.5.28":
+  "integrity" "sha512-rDMTa7nLE0ikYnu8JDCrwQufIRm4b4Sg8BK11DGdDAmYpXmcmw4Qvm+oVBR8gUL97E6i2ihTM+cRx8mgENDACA=="
+  "resolved" "https://registry.npmjs.org/next-sitemap/-/next-sitemap-2.5.28.tgz"
+  "version" "2.5.28"
+  dependencies:
+    "@corex/deepmerge" "^2.6.148"
+    "minimist" "^1.2.6"
+
+"next@*", "next@^12.1.7-canary.3":
   "integrity" "sha512-o0H50Imvg53Fpn/1NGuS2zY+yvcUaygAhV7B7H9teAt0in1VNNwJnOsG5tv/SJUWrsgt7oFgyExadgC0S+pJDQ=="
   "resolved" "https://registry.npmjs.org/next/-/next-12.1.7-canary.3.tgz"
   "version" "12.1.7-canary.3"

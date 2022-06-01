@@ -10,10 +10,8 @@ function LinkComponent({ href, linkTitle, humburgerOpened, router, target, handl
         <a onClick={() => {
             handleClick(href);
         }}
-            className={cn(styles.link, { [styles.link_opened]: humburgerOpened }, { [styles.link_active]: router.pathname === href })}>
-            {/* <Link href={href} > */}
-            {/* <a  className={cn(styles.link, { [styles.link_opened]: humburgerOpened }, { [styles.link_active]: router.pathname === href })} target={target}>{linkTitle}</a> */}
-            {/* </Link> */}
+            className={cn(styles.link, { [styles.link_opened]: humburgerOpened }, { [styles.link_active]: router.pathname === href })} target={target}>
+
             {linkTitle}
         </a>
     </Link>

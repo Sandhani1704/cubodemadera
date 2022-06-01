@@ -1,6 +1,7 @@
 import './index.css'
-import { Header, Footer } from '../components';
+import { Header, Footer, HumburgerMenu } from '../components';
 import Head from 'next/head';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps, router }) {
@@ -14,6 +15,7 @@ export default function MyApp({ Component, pageProps, router }) {
         },
     }}>
         <Head>
+            <link rel="icon" href="/favicon.ico" type="image/x-icon" />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />
@@ -21,10 +23,10 @@ export default function MyApp({ Component, pageProps, router }) {
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"></link>
         </Head>
         <Header />
-        
-            <Component {...pageProps} />
-        
+        <HumburgerMenu />
+
+        <Component {...pageProps} />
+
         <Footer />
-    {/* </div> */}
     </motion.div>
 }

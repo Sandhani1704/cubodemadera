@@ -4,7 +4,6 @@ import LinkComponent from '../link';
 import { withRouter } from 'next/router';
 
 function Nav({ humburgerOpened, handleClick }) {
-    console.log(humburgerOpened)
 
     return (
         <nav className={cn(styles.navigation, { [styles.navigation_opened]: humburgerOpened })}>
@@ -19,7 +18,7 @@ function Nav({ humburgerOpened, handleClick }) {
                     <LinkComponent href='https://fivemarket.ru/catalog/cubo_de_madera/' target='_blank' linkTitle='КУПИТЬ' humburgerOpened={humburgerOpened} handleClick={handleClick} />
                 </li>
                 <li className={cn(styles.list__item, { [styles.list__item_opened]: humburgerOpened })}>
-                    <LinkComponent href='/kak-zakazat' linkTitle='КАК ЗАКАЗАТЬ' humburgerOpened={humburgerOpened} handleClick={handleClick} />
+                    <LinkComponent href='/kak-zakazat' linkTitle='КАК&nbsp;ЗАКАЗАТЬ' humburgerOpened={humburgerOpened} handleClick={handleClick} />
                 </li>
                 <li className={cn(styles.list__item, { [styles.list__item_opened]: humburgerOpened })}>
                     <LinkComponent href='/assortiment' linkTitle='АССОРТИМЕНТ' humburgerOpened={humburgerOpened} handleClick={handleClick} />

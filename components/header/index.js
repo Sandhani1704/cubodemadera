@@ -1,5 +1,6 @@
 import styles from './style.module.css'
 import Nav from '../nav';
+import HumburgerMenu from '../humburger-menu';
 import Logo from '../logo';
 import Image from 'next/image';
 import React, { useState } from 'react';
@@ -14,11 +15,20 @@ function Header() {
       setHumburgerOpened(false)
     }
   }
+
+  const handleCloseHumburgerClick = () => {
+    setHumburgerOpened(false);
+  }
   
-  return <header className={cn(styles.header, { [styles.header_opened]: humburgerOpened })}>
+  return <>
+  <HumburgerMenu humburgerOpened={humburgerOpened} handleCloseHumburgerClick={handleCloseHumburgerClick} handleClick={handleClick}/>
+  
+  <header className={cn(styles.header, { [styles.header_opened]: humburgerOpened })}>
+    
     <div className={styles.header__cont}>
       <Logo humburgerOpened={humburgerOpened} />
-      <Nav humburgerOpened={humburgerOpened}  handleClick={handleClick} />
+      <Nav handleClick={handleClick} /> 
+      {/* handleClick={handleClick} */}
       {/* <div className={cn(styles.header__buttons, { [styles.header__buttons_hidden]: humburgerOpened })}> */}
         <button className={cn(styles.burger__pic, { [styles.burger__pic_opened]: humburgerOpened })}
           onClick={() => {
@@ -31,15 +41,15 @@ function Header() {
           КУПИТЬ
         </button> */}
       {/* </div> */}
-      <button className={cn(styles.header__close, { [styles.header__close_opened]: humburgerOpened })}
+      {/* <button className={cn(styles.header__close, { [styles.header__close_opened]: humburgerOpened })}
         onClick={() => {
           setHumburgerOpened(false);
         }}>
         <Image src='/close-button.png' alt='close-icon' layout="responsive" objectFit='contain' width="100%" height="100%" />
-      </button>
+      </button> */}
     </div>
   </header>
-
+  </>
 }
 
 export default Header

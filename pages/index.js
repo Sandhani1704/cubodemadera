@@ -4,10 +4,11 @@ import Head from 'next/head';
 function HomePage() {
   return <>
     <Head>
-      <title>Купить CUBO DE MADERA в Москве с бережной доставкой: цена на CUBO DE MADERA, в интернет магазине fivemarket</title>
+      <title>Купить деревянные эксклюзивные кашпо CUBO DE MADERA, узнать стоимость, доставка по России.</title>
       <meta name="robots" content="index,follow" />
       <meta name="keywords" content="cubo de madera" />
-      <meta name="description" content="CUBO DE MADERA, широкий✅ выбор в интернет-магазине fivemarket. Большие скидки.☝ Купить cubo de madera с гарантией и надежной доставкой." />
+      <meta name="description" content="Высочайшее качество кашпо из ценных пород дерева. Дополнят интерьер таких стилей как Hi-tech, Loft, Eko-style, Minimalism
+" />
     </Head>
     <Main />
   </>

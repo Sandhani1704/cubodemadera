@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://cubodemadera.ru/
+
+# Sitemaps
+Sitemap: https://cubodemadera.ru/sitemap.xml

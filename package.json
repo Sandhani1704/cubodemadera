@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "sitemap": "next-sitemap --config next-sitemap.config.js",
     "lint": "next lint"
   },
   "dependencies": {
@@ -15,5 +16,8 @@
     "next-images": "^1.8.4",
     "react": "18.0.0",
     "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "next-sitemap": "^2.5.28"
   }
 }

@@ -17,9 +17,7 @@
 }
 
 .table_white {
-  /* bottom: 110px; */
-  
-  position: absolute;
+   position: absolute;
   color: #ffffff;
   margin: auto;
   margin-top: 70px;
@@ -97,10 +95,7 @@
  }
 
 @media screen and (max-width: 450px) {
-  .table {
-    margin-bottom: 0px;
-  }
-  .table__heading_column {
+   .table__heading_column {
     font-size: 15px;
     margin-bottom: 10px;
     font-weight: 500;

@@ -6,17 +6,17 @@ import Image from 'next/image';
 function Kontakty() {
     return <main className={cn(styles.kontakty)}>
         <Head>
-            <title>Контакты</title>
+            <title>Контакты CUBO DE MADERA (КУБО ДЕ МАДЕРА)</title>
             <meta name="robots" content="index,follow" />
             <meta name="keywords" content="cubo de madera" />
-            <meta name="description" content="Деревянные кашпо из массива ясеня" />
+            <meta name="description" content="Адрес производства кашпо CUBO DE MADERA" />
         </Head>
         <div className={cn(styles.kontakty__cont)}>
             <div className={cn(styles.kontakty__pic)}>
                 <Image src='/kontakty-1.jpg' layout="fill" objectFit='cover' width='100%' height='100%' />
             </div>
             <div className={cn(styles.kontakty__contacts)}>
-                <p className={cn(styles.kontakty__title)}>Контакты</p>
+                <h1 className={cn(styles.kontakty__title)}>Контакты</h1>
 
                 <p className={styles.contacts__phone}>tel.<a href="tel:+7(495) 799-16-06" className={styles.contacts__phone_link}> +7 (495) 799-16-06</a></p>
                 <p className={styles.contacts__email}>e-mail:<a href="mailto:info@cubodemadera.com" target="_self" className={styles.contacts__email_link}> info@cubodemadera.com</a></p>

@@ -94,10 +94,10 @@
   color: #414141;
 }
 
-.footer__link {
+/* .footer__link {
   display: flex;
   align-items: center;
-}
+} */
 
 .footer__link {
   position: relative;
@@ -105,6 +105,11 @@
   max-width: 28px;
   width: 100%;
   height: 28px;
+}
+
+.footer__link:hover {
+  opacity: 0.6;
+  transition: 0.4s ease 0s;
 }
 
 @media screen and (max-width: 1030px) {

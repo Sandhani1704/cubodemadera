@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/ibk1d8Ci2yYLZZXmRK0K3/_buildManifest.js",
-    "static/ibk1d8Ci2yYLZZXmRK0K3/_ssgManifest.js",
-    "static/ibk1d8Ci2yYLZZXmRK0K3/_middlewareManifest.js"
+    "static/r0IUAJ9rIZtlh60or4edw/_buildManifest.js",
+    "static/r0IUAJ9rIZtlh60or4edw/_ssgManifest.js",
+    "static/r0IUAJ9rIZtlh60or4edw/_middlewareManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -15,14 +15,14 @@
       "static/chunks/webpack-69bfa6990bb9e155.js",
       "static/chunks/framework-fc97f3f1282ce3ed.js",
       "static/chunks/main-17f83f6ef67c6fe6.js",
-      "static/chunks/pages/index-c1c6d84de41b7ee1.js"
+      "static/chunks/pages/index-4e454187784feef8.js"
     ],
     "/_app": [
       "static/chunks/webpack-69bfa6990bb9e155.js",
       "static/chunks/framework-fc97f3f1282ce3ed.js",
       "static/chunks/main-17f83f6ef67c6fe6.js",
-      "static/css/1dd57bea70983335.css",
-      "static/chunks/pages/_app-c5c7bc4f8b4b7152.js"
+      "static/css/577b819207f50a06.css",
+      "static/chunks/pages/_app-a4a4d730167a214c.js"
     ],
     "/_error": [
       "static/chunks/webpack-69bfa6990bb9e155.js",
@@ -35,28 +35,28 @@
       "static/chunks/framework-fc97f3f1282ce3ed.js",
       "static/chunks/main-17f83f6ef67c6fe6.js",
       "static/css/128bd5d6d3a5a20c.css",
-      "static/chunks/pages/assortiment-311a02a59f06958e.js"
+      "static/chunks/pages/assortiment-4c1de1386b46817d.js"
     ],
     "/galereya": [
       "static/chunks/webpack-69bfa6990bb9e155.js",
       "static/chunks/framework-fc97f3f1282ce3ed.js",
       "static/chunks/main-17f83f6ef67c6fe6.js",
       "static/css/aed108ca1415c630.css",
-      "static/chunks/pages/galereya-68338d661b37bae8.js"
+      "static/chunks/pages/galereya-a6189a7ebd968496.js"
     ],
     "/kak-zakazat": [
       "static/chunks/webpack-69bfa6990bb9e155.js",
       "static/chunks/framework-fc97f3f1282ce3ed.js",
       "static/chunks/main-17f83f6ef67c6fe6.js",
       "static/css/2a1dbe8b0ffe4193.css",
-      "static/chunks/pages/kak-zakazat-19d9051b4da1ce51.js"
+      "static/chunks/pages/kak-zakazat-23b7eea30bdf8e88.js"
     ],
     "/kontakty": [
       "static/chunks/webpack-69bfa6990bb9e155.js",
       "static/chunks/framework-fc97f3f1282ce3ed.js",
       "static/chunks/main-17f83f6ef67c6fe6.js",
       "static/css/52fc24b84f5e80f4.css",
-      "static/chunks/pages/kontakty-e2b854ea3c4b3e3e.js"
+      "static/chunks/pages/kontakty-9a9232142b25575c.js"
     ]
   },
   "ampFirstPages": []

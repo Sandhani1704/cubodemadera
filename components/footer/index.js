@@ -16,8 +16,7 @@ function Footer() {
         <div className={styles.footer__social}>
           <a href="https://www.instagram.com/cubodemadera/" target="_blank" rel="noreferrer noopener" className={styles.footer__link}>
             <Image src='/instagram-1.png'
-              layout="fill" objectFit='cover' width='100%' height='100%'
-            />
+              layout="fill" objectFit='cover' />
           </a>
           <p className={styles.footer__dates}>© 2017-2022 CUBO DE MADERA</p>
         </div>

@@ -7,10 +7,10 @@ import Head from 'next/head';
 function HowToOrder() {
     return <main className={cn(styles.zakazat)}>
         <Head>
-            <title>ОФОРМИТЬ ЗАКАЗ</title>
+            <title>Как заказать кашпо CUBO DE MADERA</title>
             <meta name="robots" content="index,follow" />
             <meta name="keywords" content="cubo de madera" />
-            <meta name="description" content="Оформить заказ Вы можете по телефону +7 (495) 799-16-06 или на сайте fivemarket.ru нажав на кнопку" />
+            <meta name="description" content="Подробнее о доставке и выборе транспортной компании. Доставка по России" />
         </Head>
         <div className={styles.background}>
             <Image
@@ -22,7 +22,7 @@ function HowToOrder() {
             />
         </div>
         <div className={cn(styles.zakazat__cont)}>
-            <h6 className={styles.title}>Как заказать</h6>
+            <h1 className={styles.title}>Как заказать</h1>
             <p>Оформить заказ Вы можете по телефону <a href="tel:+7(495) 799-16-06" className={styles.phone}>+7 (495) 799-16-06</a>  или на сайте fivemarket.ru нажав на кнопку</p>
             <a className={styles.button} href='https://fivemarket.ru/catalog/cubo_de_madera/' target='_blank'>ОФОРМИТЬ ЗАКАЗ <svg className={styles.svg} data-bbox="9 70.9 181 59" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill='#FFFFFF' width='37'  >
                 <g>
