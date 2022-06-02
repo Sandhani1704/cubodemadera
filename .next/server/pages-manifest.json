@@ -1,5 +1,11 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/": "pages/index.html",
+  "/kak-zakazat": "pages/kak-zakazat.html",
+  "/kontakty": "pages/kontakty.html",
+  "/assortiment": "pages/assortiment.html",
+  "/galereya": "pages/galereya.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }
