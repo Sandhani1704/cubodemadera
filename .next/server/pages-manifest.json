@@ -1,10 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/kak-zakazat": "pages/kak-zakazat.js",
-  "/assortiment": "pages/assortiment.js",
-  "/galereya": "pages/galereya.js",
-  "/kontakty": "pages/kontakty.js"
+  "/_document": "pages/_document.js"
 }
