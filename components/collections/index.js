@@ -8,7 +8,7 @@ function Collections() {
 
     return <div className={styles.container}>
         <h3 className={styles.title}>
-            Cubo de madera —  новое слово в фитодизайне
+            СUBO DE MADERA — новое слово в фитодизайне
         </h3>
         <p className={styles.text}>В проектировании наших кашпо мы уделяем большое внимание не только  внешнему виду,
             но и созданию максимально комфортной среды для содержания ваших растений.</p>
@@ -20,7 +20,7 @@ function Collections() {
                     objectFit="cover"
                     className={styles.pic}
                 />
-                <PictureCaption title='Коллекция Cubo de madera' href='https://fivemarket.ru/catalog/cubo_de_madera/' />
+                <PictureCaption title='Коллекция СUBO DE MADERA' href='/shop' />
             </div>
             <div className={styles.pic__container}>
                 <Image src='/collections-2-mobile.jpg'
@@ -28,11 +28,11 @@ function Collections() {
                     objectFit="cover"
                     className={styles.pic}
                 />
-                <PictureCaption title='Коллекция на ножках' href='https://fivemarket.ru/catalog/cubo_de_madera/' />
+                <PictureCaption title='Коллекция на ножках' href='/shop' />
             </div>
         </div>
 
-        <p className={styles.text}>Прямые формы деревянных кашпо Cudo de Madera позволяют органически влиться
+        <p className={styles.text}>Прямые формы деревянных кашпо СUBO DE MADERA позволяют органически влиться
             в любое стилистическое решение современного дизайна.
             При этом натуральный материал позволяет реализовать природоориентированный концепт в интерьере.</p>
         <div className={cn(styles.pic__container, styles.pic__container_big)}>

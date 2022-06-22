@@ -14,9 +14,9 @@ function Nav({ humburgerOpened, handleClick }) {
                 <li className={cn(styles.list__item, { [styles.list__item_opened]: humburgerOpened })}>
                     <LinkComponent href='/galereya' linkTitle='ГАЛЕРЕЯ' humburgerOpened={humburgerOpened} handleClick={handleClick} />
                 </li>
-                <li className={cn(styles.list__item, { [styles.list__item_opened]: humburgerOpened })}>
+                {/* <li className={cn(styles.list__item, { [styles.list__item_opened]: humburgerOpened })}>
                     <LinkComponent href='https://fivemarket.ru/catalog/cubo_de_madera/' target='_blank' linkTitle='КУПИТЬ' humburgerOpened={humburgerOpened} handleClick={handleClick} />
-                </li>
+                </li> */}
                 <li className={cn(styles.list__item, { [styles.list__item_opened]: humburgerOpened })}>
                     <LinkComponent href='/shop' linkTitle='МАГАЗИН' humburgerOpened={humburgerOpened} handleClick={handleClick} />
                 </li>

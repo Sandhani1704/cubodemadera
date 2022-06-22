@@ -6,7 +6,7 @@ function PictureCaption({title, isRight, href}) {
 
     return <div className={cn(styles.container, {[styles.container_right]: isRight } )}>
      <h3 className={styles.title}>{title}</h3>
-     <Button text='Подробнее' href={href} target='_blank' />
+     <Button text='Подробнее' href={href}  />
     </div>
 }
 
