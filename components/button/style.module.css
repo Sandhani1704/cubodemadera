@@ -14,7 +14,7 @@
   border: 1px solid #ffffff;
   background: transparent;
   font-size: 13px;
-  z-index: 5;
+  z-index: 1;
   text-decoration: none;
 }
 
@@ -28,7 +28,7 @@
 .button_active {
   border: none;
   background: #e9c88b;
-  z-index: 5;
+  z-index: 1;
 }
 
 .button_active:hover {
@@ -36,4 +36,15 @@
   color: #414141;
   border: none;
   z-index: 5;
+}
+
+.button_productPage {
+  font-size: 14px;
+  padding: 5px 25px;
+}
+
+.button_productPage:hover {
+  background: #e9c88b;
+  opacity: 0.8;
+  color: #ffffff;
 }

@@ -83,7 +83,7 @@
   font-size: 14px;
   font-weight: 400;
   color: #414141;
-  text-align: center;
+  text-align: justify;
   margin-bottom: 40px;
 }
 .collection {
@@ -120,6 +120,7 @@
   font-size: 14px;
   color: #414141;
   margin-bottom: 40px;
+  text-align: justify;
 }
 .text__cont {
   display: flex;

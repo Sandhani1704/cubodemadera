@@ -1,0 +1,126 @@
+.shop {
+  display: flex;
+  max-width: 980px;
+  width: 100%;
+  min-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  /* padding: 150px 17px; */
+  /* padding-top: 90px; */
+  /* flex-direction: column; */
+  padding-top: 150px;
+  background: white;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.background {
+  opacity: 0.6 !important;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.productItem {
+  display: flex;
+  flex-direction: column;
+  max-width: 305px;
+  width: 100%;
+  height: 420px;
+  cursor: pointer;
+}
+
+.productItem__image {
+  text-decoration: none;
+  position: relative;
+  height: 305px;
+  width: 300px;
+}
+
+.productItem__name {
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #000000;
+  text-align: center;
+}
+
+.productItem__price {
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #000000;
+  text-align: center;
+}
+
+.productItem__button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  height: 50px;
+  bottom: -50px;
+  line-height: 50px !important;
+  text-align: center;
+  cursor: pointer;
+  visibility: hidden;
+  transition-duration: 399ms;
+  transition-property: transform;
+  color: #000000;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.productItem__image:hover .productItem__button {
+  opacity: 1;
+  transition-duration: 300ms;
+  transform: translateY(-100%);
+  visibility: visible;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1030px) {
+  .shop {
+    max-width: 880px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .shop {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .productItem {
+    max-width: 250px;
+    width: 100%;
+    height: 300px;
+  }
+
+  .productItem__image {
+    max-width: 250px;
+    width: 100%;
+  }
+  .productItem__name {
+    max-width: 250px;
+  }
+  
+  .productItem__price {
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #000000;
+    text-align: center;
+  }
+}
