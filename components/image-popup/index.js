@@ -1,8 +1,7 @@
-// import closeIcon from './close-button.png';
 import { useEffect } from 'react';
 import Image from 'next/image';
 import styles from './style.module.css'
-import { NextIcon } from '../assets/icons/next-icon'; BackIcon
+import { NextIcon } from '../assets/icons/next-icon'; 
 import { BackIcon } from '../assets/icons/back-icon';
 import cn from 'classnames';
 
@@ -20,10 +19,8 @@ function ImagePopup({ image, isOpen, handleCloseCardClick, backButton, nextButto
         };
     });
 
-    //onClick={handleCloseCardClick}
-
     return <section className={cn(styles.popup, { [styles.popup_opened]: isOpen })} >
-        <div className={cn(styles.popup__overlay)} id="modal-overlay"  ></div>
+        <div className={cn(styles.popup__overlay)} id="modal-overlay" onClick={handleCloseCardClick} ></div>
 
         <div className={styles.popup__image}>
             {backButton && (

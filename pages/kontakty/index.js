@@ -13,7 +13,7 @@ function Kontakty() {
         </Head>
         <div className={cn(styles.kontakty__cont)}>
             <div className={cn(styles.kontakty__pic)}>
-                <Image src='/kontakty-1.jpg' layout="fill" objectFit='cover' width='100%' height='100%' />
+                <Image src='/kontakty-1.jpg' layout="fill" objectFit='cover'  />
             </div>
             <div className={cn(styles.kontakty__contacts)}>
                 <h1 className={cn(styles.kontakty__title)}>Контакты</h1>

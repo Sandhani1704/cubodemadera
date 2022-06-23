@@ -125,7 +125,7 @@ function Assortiment() {
                             Гармония форм в миниатюре</h3>
                         <p className={styles.content__text}>Превосходно исполненные искусственные суккуленты в прямых формах кашпо  - идеальная композиция,
                             не обременяющая излишним уходом. </p>
-                        <Button isActive='true' text='Купить' />
+                        {/* <Button isActive='true' text='Купить' /> */}
                     </div>
                 </div>
 

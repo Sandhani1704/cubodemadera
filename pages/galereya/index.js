@@ -46,7 +46,7 @@ function Galereya() {
 
         <div className={cn(styles.galereya__cont)}>
             {gallery.map(item => (
-                <button className={cn(styles.galereya__item, styles[`${item.className}`])} onClick={() => handleCardClick(item)}>
+                <button key={item.src} className={cn(styles.galereya__item, styles[`${item.className}`])} onClick={() => handleCardClick(item)}>
                     <Image src={item.src} layout="fill" objectFit='cover' />
                 </button>
             )

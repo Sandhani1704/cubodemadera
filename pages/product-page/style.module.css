@@ -278,7 +278,6 @@
 @media screen and (max-width: 600px) {
   .productPage__imageCont {
     padding: 25px;
-    
   }
   .productPage__image {
     max-width: 200px;
@@ -294,9 +293,6 @@
   .productPage__descriptionSection {
     padding: 25px;
   }
-  /* .productPage__title {
-
-  } */
   .productPage__name {
     font-size: 13px;
   }
@@ -312,7 +308,6 @@
   }
   .productPage__qualities {
     font-size: 13px;
-    text-align: justify;
   }
 }
 @media screen and (max-width: 450px) {

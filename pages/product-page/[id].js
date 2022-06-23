@@ -17,8 +17,12 @@ function productPage({ card }) {
 
     const allImages = card?.images;
 
+    // const handleChangeMainImage = (image) => {
+    //     const res = card.images.find(card => card === image)
+    //     setMainImage(res)
+    // }
     const handleChangeMainImage = (image) => {
-        const res = card.images.find(card => card === image)
+        const res = card.images.find(card => card === image.replace(/S/g, ''))
         setMainImage(res)
     }
 
@@ -111,7 +115,6 @@ function productPage({ card }) {
             <meta name="robots" content="index,follow" />
             <meta name="keywords" content={card.name}></meta>
             <meta name="description" content={`${card.name}, широкий✅ выбор в интернет-магазине CUBO DE MADERA. Большие скидки.☝ Купить ${card.name} с гарантией и надежной доставкой.`}></meta>
-            <link rel="preload" as="image" href={card.mainImage} imagesrcset={card.mainImage} imagesizes="400px"></link>
         </Head>
         <div className={styles.background}>
             <Image
@@ -124,7 +127,7 @@ function productPage({ card }) {
         <div className={styles.productPage__cardCont}>
             <div className={styles.productPage__imageCont}>
                 <div className={styles.productPage__image} onClick={() => handleCardClick(mainImage)}>
-                    <Image src={mainImage} layout="fill" objectFit='contain' rel="preload" as="image" />
+                    <Image src={mainImage} layout="fill" objectFit='contain' />
                 </div>
                 <div className={styles.productPage__priceInfo}>
                     <p className={styles.productPage__id}>Артикул: {card.id}</p>
@@ -134,7 +137,7 @@ function productPage({ card }) {
             </div>
             <div className={styles.productPage__cardsImages}>
 
-                {card.images.slice(1).map(image => (
+                {card?.imagesSmall.slice(1).map(image => (
                     <div className={styles.productPage__cardImage} key={uuidv4()} onClick={() => handleChangeMainImage(image)}>
                         <Image src={image} layout="fill" objectFit='cover' />
                     </div>
