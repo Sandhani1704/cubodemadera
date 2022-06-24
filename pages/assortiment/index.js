@@ -32,7 +32,7 @@ function Assortiment() {
                     <div className={styles.content__cont}>
                         <h1 className={styles.content__title}>Сочетание форм - признак хорошего дизайнa</h1>
                         <p className={styles.content__text}>Разнообразие размеров напольных кашпо, выполненных в едином стиле, будет являться неповторимым продолжением Вашего интерьера</p>
-                        <Button isActive='true' text='Купить' />
+                        {/* <Button isActive='true' text='Купить' /> */}
                     </div>
                 </div>
 
@@ -100,7 +100,7 @@ function Assortiment() {
                     </div>
 
                 </div>
-                <div className={styles.text__cont}>
+                <div className={styles.text__cont} id='yourSizePot' >
                     <h2 className={styles.collection__title}>Кашпо по вашим размерам</h2>
                     <p className={styles.collection__text}>Фитодизайн - это особый вид искусства, выполняющий как эстетические, 
                     так и утилитарные функции, активно влияет на характер формирования интерьера и 

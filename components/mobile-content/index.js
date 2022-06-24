@@ -7,21 +7,21 @@ import Link from "next/link";
 function MobileContent() {
 
     return <div className={styles.cont}>
-        <Link href='/assortiment' >
+        <Link href='/shop' >
         <a className={styles.pic}>
             <Image src='/collections-1-mobile.jpg' layout="fill" objectFit='cover'  />
             <p className={styles.pic__caption} >Коллекция Cubo de madera</p>
 
         </a>
         </Link>
-        <Link href='/assortiment' >
+        <Link href='/shop' >
         <a className={styles.pic}>
             <Image src='/collections-2-mobile.jpg' layout="fill" objectFit='cover'  />
             <p className={styles.pic__caption} >Коллекция на ножках</p>
 
         </a>
         </Link>
-        <Link href='/assortiment' >
+        <Link href='/assortiment#yourSizePot' >
         <a className={styles.pic}>
             <Image src='/collections-3-mobile.jpg' layout="fill" objectFit='cover'  />
             <p className={styles.pic__caption} >Кашпо по вашим размерам</p>

@@ -41,7 +41,7 @@ function Collections() {
                 objectFit="cover"
                 className={styles.picinfo}
             />
-            <PictureCaption title='Кашпо по вашим размерам' href='/kak-zakazat' isRight='true' />
+            <PictureCaption title='Кашпо по вашим размерам' href='/assortiment#yourSizePot' isRight='true' />
         </div>
         <Table
             heading1='Встроенная система автополива'
