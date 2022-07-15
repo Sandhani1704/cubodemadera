@@ -26,18 +26,18 @@
 
 .productPage__cardTitle {
   display: flex;
-  font-size: 28px;
-  line-height: 36px;
+  font-size: 20px;
+  line-height: 28px;
   font-weight: 500;
-  padding-top: 20px;
-  padding-bottom: 21px;
-  background: #f3f3f5;
+  padding-top: 10px;
+  padding-bottom: 11px;
   text-align: start;
   align-items: flex-start;
   max-width: 880px;
   width: 100%;
   margin: 0;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 .productPage__cardCont {
@@ -284,10 +284,8 @@
 
 @media screen and (max-width: 680px) {
   .productPage__cardTitle {
-    font-size: 22px;
-    line-height: 28px;
-    padding-top: 15px;
-    padding-bottom: 16px;
+    font-size: 18px;
+    line-height: 25px;
   }
   .productPage__priceInfo {
     max-width: 130px;
@@ -335,11 +333,12 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .productPage {
+    padding-top: 20px;
+  }
   .productPage__cardTitle {
-    font-size: 20px;
-    line-height: 25px;
-    padding-top: 10px;
-    padding-bottom: 11px;
+    font-size: 16px;
+    line-height: 20px;
   }
   .productPage__imageCont {
     padding: 20px;

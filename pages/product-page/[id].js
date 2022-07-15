@@ -124,7 +124,7 @@ function productPage({ card }) {
                 objectFit="cover"
             />
         </div>
-        <p className={styles.productPage__cardTitle}>{card.name}</p>
+        <h1 className={styles.productPage__cardTitle}>{card.name}</h1>
         <div className={styles.productPage__cardCont}>
             <div className={styles.productPage__imageCont}>
                 <div className={styles.productPage__image} onClick={() => handleCardClick(mainImage)}>
