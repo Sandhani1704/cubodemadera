@@ -18,7 +18,7 @@ function Footer() {
             <Image src='/instagram-1.png'
               layout="fill" objectFit='cover' />
           </a>
-          <p className={styles.footer__dates}>© 2017-2022 CUBO DE MADERA</p>
+          <p className={styles.footer__dates}>© 2017-2023 CUBO DE MADERA</p>
         </div>
       </div>
     </div>
