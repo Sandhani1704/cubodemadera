@@ -2,7 +2,7 @@ export default [
     {
         id: 'MC-01',
         name: 'Кашпо на подставке CUBO DE MADERA 88 д, 24 ш, 80 в, белое',
-        price: '21 690',
+        price: '18 450',
         mainLink: "/C04940N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_88_l_24_w_80_h_beloe.html',
         images: [
@@ -49,7 +49,7 @@ export default [
     {
         id: 'MC-02',
         name: 'Кашпо на подставке CUBO DE MADERA 68 д, 24 ш, 80 в, белое',
-        price: '18 690',
+        price: '15 930',
         mainLink: "/C04961N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_68_l_24_w_80_h_beloe.html',
         images: [
@@ -96,7 +96,7 @@ export default [
     {
         id: 'MC-03',
         name: 'Кашпо на подставке CUBO DE MADERA 88 д, 24 ш, 80 в, натуральное дерево коричневое',
-        price: '21 390',
+        price: '18 270',
         mainLink: "/C04947N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_88_l_24_w_80_h_naturalnoe_derevo_korichnevoe.html',
         images: [
@@ -147,7 +147,7 @@ export default [
     {
         id: 'MC-04',
         name: 'Кашпо на подставке CUBO DE MADERA 68 д, 24 ш, 80 в, натуральное дерево коричневое',
-        price: '18 590',
+        price: '15 840',
         mainLink: "/C04955N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_68_l_24_w_80_h_naturalnoe_derevo_korichnevoe.html',
         images: [
@@ -198,7 +198,7 @@ export default [
     {
         id: 'MC-05',
         name: 'Кашпо на подставке CUBO DE MADERA 32 д, 32 ш, 85 в, белое',
-        price: '16 690',
+        price: '14 220',
         mainLink: "/C04903N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_32_l_32_w_85_h_beloe.html',
         images: [
@@ -246,7 +246,7 @@ export default [
     {
         id: 'MC-06',
         name: 'Кашпо на подставке CUBO DE MADERA 32 д, 32 ш, 51 в, белое',
-        price: '14 590',
+        price: '12 420',
         mainLink: "/C04918N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_32_l_32_w_51_h_beloe.html',
         images: [
@@ -294,7 +294,7 @@ export default [
     {
         id: 'MC-07',
         name: 'Кашпо на подставке CUBO DE MADERA 32 д, 32 ш, 85 в, натуральное дерево коричневое',
-        price: '16 890',
+        price: '14 400',
         mainLink: "/C04900N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_32_l_32_w_85_h_naturalnoe_derevo_korichnevoe.html',
         images: [
@@ -340,7 +340,7 @@ export default [
     {
         id: 'MC-08',
         name: 'Кашпо на подставке CUBO DE MADERA 32 д, 32 ш, 51 в, натуральное дерево коричневое',
-        price: '14 690',
+        price: '12 510',
         mainLink: "/C04914N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_32_l_32_w_51_h_naturalnoe_derevo_korichnevoe.html',
         images: [
@@ -386,7 +386,7 @@ export default [
     {
         id: 'MC-09',
         name: 'Кашпо на подставке CUBO DE MADERA 29 д, 29 ш, 117 в, белое',
-        price: '13 890',
+        price: '11 880',
         mainLink: "/C04784-2N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_29_l_29_w_117_h_beloe.html',
         images: [
@@ -434,7 +434,7 @@ export default [
     {
         id: 'MC-10',
         name: 'Кашпо на подставке CUBO DE MADERA 29 д, 29 ш, 87 в, белое',
-        price: '13 090',
+        price: '11 160',
         mainLink: "/C04829N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_29_l_29_w_87_h_beloe.html',
         images: [
@@ -482,7 +482,7 @@ export default [
     {
         id: 'MC-11',
         name: 'Кашпо на подставке CUBO DE MADERA 29 д, 29 ш, 59 в, белое',
-        price: '11 490',
+        price: '9 810',
         mainLink: "/C04862N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_29_l_29_w_59_h_beloe.html',
         images: [
@@ -532,7 +532,7 @@ export default [
     {
         id: 'MC-12',
         name: 'Кашпо на подставке CUBO DE MADERA 29 д, 29 ш, 117 в, черное',
-        price: '13 890',
+        price: '11 880',
         mainLink: "/C04779-2N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_29_l_29_w_117_h_chernoe.html',
         images: [
@@ -584,7 +584,7 @@ export default [
     {
         id: 'MC-13',
         name: 'Кашпо на подставке CUBO DE MADERA 29 д, 29 ш, 87 в, черное',
-        price: '13 090',
+        price: '11 160',
         mainLink: "/C04826N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_29_l_29_w_87_h_chernoe.html',
         images: [
@@ -634,7 +634,7 @@ export default [
     {
         id: 'MC-14',
         name: 'Кашпо на подставке CUBO DE MADERA 29 д, 29 ш, 59 в, черное',
-        price: '11 490',
+        price: '9 810',
         mainLink: "/C04856N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_29_l_29_w_59_h_chernoe.html',
         images: [
@@ -684,7 +684,7 @@ export default [
     {
         id: 'MC-15',
         name: 'Кашпо на подставке CUBO DE MADERA 29 д, 29 ш, 117 в, натуральное дерево коричневое',
-        price: '14 090',
+        price: '12 060',
         mainLink: "/C04786-2N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_29_l_29_w_117_h_naturalnoe_derevo_korichnevoe.html',
         images: [
@@ -736,7 +736,7 @@ export default [
     {
         id: 'MC-16',
         name: 'Кашпо на подставке CUBO DE MADERA 29 д, 29 ш, 87 в, натуральное дерево коричневое',
-        price: '13 190',
+        price: '11 250',
         mainLink: "/C04836N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_29_l_29_w_87_h_naturalnoe_derevo_korichnevoe.html',
         images: [
@@ -790,7 +790,7 @@ export default [
     {
         id: 'MC-17',
         name: 'Кашпо на подставке CUBO DE MADERA 29 д, 29 ш, 59 в, натуральное дерево коричневое',
-        price: '11 590',
+        price: '9 900',
         mainLink: "/C04866N.jpg",
         buttonToFM: 'https://fivemarket.ru/product/kashpo_na_podstavke_cubo_de_madera_29_l_29_w_59_h_naturalnoe_derevo_korichnevoe.html',
         images: [
