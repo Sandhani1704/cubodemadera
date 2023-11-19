@@ -14,10 +14,10 @@ function Footer() {
       <div className={styles.footer__caption}>
         <p className={styles.footer__text}>Design studio Pavel Grosse</p>
         <div className={styles.footer__social}>
-          <a href="https://www.instagram.com/cubodemadera/" target="_blank" rel="noreferrer noopener" className={styles.footer__link}>
+          {/* <a href="https://www.instagram.com/cubodemadera/" target="_blank" rel="noreferrer noopener" className={styles.footer__link}>
             <Image src='/instagram-1.png'
               layout="fill" objectFit='cover' />
-          </a>
+          </a> */}
           <p className={styles.footer__dates}>© 2017-2023 CUBO DE MADERA</p>
         </div>
       </div>
